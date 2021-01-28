@@ -14,7 +14,7 @@
 13	and	CC
 14	Xiquan	NNP
 15	Shen	NNP
-*	*	*
+*
 0	Typhoon	NN
 1	No.	NNP
 2	17	CD
@@ -49,7 +49,7 @@
 31	reached	VBN
 32	1500	CD
 33	.	.
-*	*	*
+*
 0	After	IN
 1	the	DT
 2	government	NN
@@ -91,7 +91,7 @@
 38	as	IN
 39	usual	JJ
 40	.	.
-*	*	*
+*
 0	Zhejiang	NNP
 1	Province	NNP
 2	's	POS
@@ -126,7 +126,7 @@
 31	disaster	NN
 32	area	NN
 33	.	.
-*	*	*
+*
 0	More	JJR
 1	than	IN
 2	20	CD
@@ -173,7 +173,7 @@
 43	preparation	NN
 44	work	NN
 45	.	.
-*	*	*
+*
 0	It	PRP
 1	also	RB
 2	squeezed	VBD
@@ -192,7 +192,7 @@
 15	disaster	NN
 16	relief	NN
 17	.	.
-*	*	*
+*
 0	For	IN
 1	those	DT
 2	students	NNS
@@ -240,7 +240,7 @@
 44	on	IN
 45	time	NN
 46	.	.
-*	*	*
+*
 0	School	NN
 1	leaders	NNS
 2	and	CC
@@ -279,7 +279,7 @@
 35	school	NN
 36	buildings	NNS
 37	.	.
-*	*	*
+*
 0	Wenzhou	NNP
 1	's	POS
 2	Education	NNP
@@ -323,7 +323,7 @@
 40	schools	NNS
 41	"	''
 42	.	.
-*	*	*
+*
 0	So	RB
 1	far	RB
 2	this	DT
@@ -341,17 +341,17 @@
 14	all	DT
 15	kinds	NNS
 16	.	.
-*	*	*
+*
 0	-LRB-	-LRB-
 1	End	NN
 2	-RRB-	-RRB-
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
+*
+*
+*
+*
+*
+*
+*
 0	The	DT
 1	school	NN
 2	built	VBD
@@ -367,7 +367,7 @@
 12	gate	NN
 13	door	NN
 14	.	.
-*	*	*
+*
 0	They	PRP
 1	invested	VBD
 2	more	JJR
@@ -387,7 +387,7 @@
 16	a	DT
 17	ruckus	NN
 18	.	.
-*	*	*
+*
 0	The	DT
 1	secretary	NN
 2	telephoned	VBD
@@ -402,7 +402,7 @@
 11	this	DT
 12	matter	NN
 13	.	.
-*	*	*
+*
 0	I	PRP
 1	myself	PRP
 2	put	VBD
@@ -429,7 +429,7 @@
 23	the	DT
 24	contractor	NN
 25	.	.
-*	*	*
+*
 0	In	IN
 1	the	DT
 2	end	NN
@@ -450,22 +450,22 @@
 17	attend	VB
 18	classes	NNS
 19	.	.
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
 0	It	PRP
 1	was	VBD
 2	kind	RB
@@ -473,7 +473,7 @@
 4	by	IN
 5	accident	NN
 6	.	.
-*	*	*
+*
 0	Um	UH
 1	,	,
 2	at	IN
@@ -509,7 +509,7 @@
 32	the	DT
 33	peasants	NNS
 34	.	.
-*	*	*
+*
 0	While	IN
 1	I	PRP
 2	was	VBD
@@ -535,7 +535,7 @@
 22	haphazard	JJ
 23	way	NN
 24	.	.
-*	*	*
+*
 0	Also	RB
 1	,	,
 2	many	JJ
@@ -609,8 +609,8 @@
 70	land	NN
 71	needed	VBD
 72	.	.
-*	*	*
-*	*	*
+*
+*
 0	The	DT
 1	first	JJ
 2	time	NN
@@ -624,7 +624,7 @@
 10	was	VBD
 11	unimaginable	JJ
 12	.	.
-*	*	*
+*
 0	At	IN
 1	the	DT
 2	time	NN
@@ -642,15 +642,15 @@
 14	like	IN
 15	that	DT
 16	.	.
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
+*
+*
+*
+*
+*
+*
+*
+*
+*
 0	More	JJR
 1	than	IN
 2	400	CD
@@ -662,7 +662,7 @@
 8	that	DT
 9	day	NN
 10	.	.
-*	*	*
+*
 0	So	RB
 1	I	PRP
 2	went	VBD
@@ -688,7 +688,7 @@
 22	surrounding	VBG
 23	area	NN
 24	.	.
-*	*	*
+*
 0	The	DT
 1	class	NN
 2	went	VBD
@@ -706,7 +706,7 @@
 14	the	DT
 15	afternoon	NN
 16	.	.
-*	*	*
+*
 0	Hey	UH
 1	,	,
 2	when	WRB
@@ -725,7 +725,7 @@
 15	of	IN
 16	feedback	NN
 17	.	.
-*	*	*
+*
 0	Hey	UH
 1	,	,
 2	,	,
@@ -734,14 +734,14 @@
 5	went	VBD
 6	great	RB
 7	.	.
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
+*
+*
+*
+*
+*
+*
+*
+*
 0	Since	IN
 1	December	NNP
 2	of	IN
@@ -758,14 +758,14 @@
 13	training	NN
 14	sessions	NNS
 15	.	.
-*	*	*
-*	*	*
+*
+*
 0	Um	UH
 1	,	,
 2	not	RB
 3	necessarily	RB
 4	.	.
-*	*	*
+*
 0	Starting	VBG
 1	in	IN
 2	'99	CD
@@ -785,7 +785,7 @@
 16	1,300	CD
 17	yuan	NN
 18	.	.
-*	*	*
+*
 0	And	CC
 1	that	DT
 2	year	NN
@@ -798,7 +798,7 @@
 9	4,000	CD
 10	yuan	NN
 11	.	.
-*	*	*
+*
 0	Therefore	RB
 1	if	IN
 2	we	PRP
@@ -822,7 +822,7 @@
 20	to	TO
 21	spend	VB
 22	.	.
-*	*	*
+*
 0	Then	RB
 1	,	,
 2	in	IN
@@ -855,7 +855,7 @@
 29	were	VBD
 30	women	NNS
 31	.	.
-*	*	*
+*
 0	When	WRB
 1	I	PRP
 2	went	VBD
@@ -887,7 +887,7 @@
 28	the	DT
 29	peasants	NNS
 30	.	.
-*	*	*
+*
 0	So	RB
 1	,	,
 2	starting	VBG
@@ -923,7 +923,7 @@
 32	conservancy	NN
 33	bureau	NN
 34	.	.
-*	*	*
+*
 0	If	IN
 1	we	PRP
 2	invited	VBD
@@ -939,11 +939,11 @@
 12	of	IN
 13	charge	NN
 14	.	.
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
+*
+*
+*
+*
+*
 0	Um	UH
 1	,	,
 2	at	IN
@@ -966,7 +966,7 @@
 19	about	IN
 20	it	PRP
 21	.	.
-*	*	*
+*
 0	But	CC
 1	then	RB
 2	it	PRP
@@ -975,7 +975,7 @@
 5	,	,
 6	alas	UH
 7	!	.
-*	*	*
+*
 0	A	DT
 1	year	NN
 2	later	RB
@@ -998,7 +998,7 @@
 19	after	IN
 20	us	PRP
 21	.	.
-*	*	*
+*
 0	But	CC
 1	I	PRP
 2	did	VBD
@@ -1013,14 +1013,14 @@
 11	the	DT
 12	reasons	NNS
 13	.	.
-*	*	*
+*
 0	How	WRB
 1	could	MD
 2	it	PRP
 3	have	VB
 4	failed	VBN
 5	?	.
-*	*	*
+*
 0	So	RB
 1	the	DT
 2	150,000	CD
@@ -1062,7 +1062,7 @@
 38	care	NN
 39	of	IN
 40	.	.
-*	*	*
+*
 0	If	IN
 1	nobody	NN
 2	wanted	VBD
@@ -1078,7 +1078,7 @@
 12	it	PRP
 13	off	RP
 14	.	.
-*	*	*
+*
 0	But	CC
 1	I	PRP
 2	could	MD
@@ -1091,7 +1091,7 @@
 9	one	CD
 10	year	NN
 11	.	.
-*	*	*
+*
 0	Then	RB
 1	I	PRP
 2	telephoned	VBD
@@ -1115,7 +1115,7 @@
 20	that	DT
 21	OK	JJ
 22	?	.
-*	*	*
+*
 0	The	DT
 1	head	NN
 2	of	IN
@@ -1154,14 +1154,14 @@
 35	my	PRP$
 36	home	NN
 37	.	.
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
+*
+*
+*
+*
+*
+*
+*
+*
 0	At	IN
 1	the	DT
 2	time	NN
@@ -1178,7 +1178,7 @@
 13	also	RB
 14	came	VBD
 15	!	.
-*	*	*
+*
 0	After	IN
 1	the	DT
 2	lawyer	NN
@@ -1204,7 +1204,7 @@
 22	against	IN
 23	you	PRP
 24	.	.
-*	*	*
+*
 0	I	PRP
 1	said	VBD
 2	,	,
@@ -1218,7 +1218,7 @@
 10	with	IN
 11	it	PRP
 12	.	.
-*	*	*
+*
 0	The	DT
 1	lawyer	NN
 2	asked	VBD
@@ -1232,7 +1232,7 @@
 10	what	WP
 11	happened	VBD
 12	?	.
-*	*	*
+*
 0	So	RB
 1	I	PRP
 2	explained	VBD
@@ -1240,7 +1240,7 @@
 4	all	DT
 5	faithfully	RB
 6	.	.
-*	*	*
+*
 0	After	IN
 1	I	PRP
 2	explained	VBD
@@ -1252,7 +1252,7 @@
 8	all	RB
 9	astonished	JJ
 10	.	.
-*	*	*
+*
 0	He	PRP
 1	said	VBD
 2	,	,
@@ -1275,7 +1275,7 @@
 19	a	DT
 20	lawsuit	NN
 21	.	.
-*	*	*
+*
 0	So	RB
 1	the	DT
 2	lawyer	NN
@@ -1284,7 +1284,7 @@
 5	all	DT
 6	out	RP
 7	.	.
-*	*	*
+*
 0	So	RB
 1	after	IN
 2	the	DT
@@ -1318,7 +1318,7 @@
 30	six	CD
 31	years	NNS
 32	.	.
-*	*	*
+*
 0	So	RB
 1	as	IN
 2	of	IN
@@ -1333,8 +1333,8 @@
 11	to	TO
 12	pay	VB
 13	.	.
-*	*	*
-*	*	*
+*
+*
 0	65,000	CD
 1	yuan	NN
 2	from	IN
@@ -1360,7 +1360,7 @@
 22	it	PRP
 23	off	RP
 24	.	.
-*	*	*
+*
 0	But	CC
 1	the	DT
 2	peasants	NNS
@@ -1369,10 +1369,10 @@
 5	of	IN
 6	services	NNS
 7	.	.
-*	*	*
+*
 0	Ho	UH
 1	!	.
-*	*	*
+*
 0	There	EX
 1	's	VBZ
 2	no	DT
@@ -1381,7 +1381,7 @@
 5	stop	VB
 6	it	PRP
 7	.	.
-*	*	*
+*
 0	So	RB
 1	,	,
 2	I	PRP
@@ -1392,7 +1392,7 @@
 7	credit	NN
 8	union	NN
 9	.	.
-*	*	*
+*
 0	They	PRP
 1	'll	MD
 2	defer	VB
@@ -1402,7 +1402,7 @@
 6	each	DT
 7	year	NN
 8	.	.
-*	*	*
+*
 0	Each	DT
 1	year	NN
 2	I	PRP
@@ -1412,7 +1412,7 @@
 6	the	DT
 7	interest	NN
 8	.	.
-*	*	*
+*
 0	Then	RB
 1	they	PRP
 2	can	MD
@@ -1423,7 +1423,7 @@
 7	back	RP
 8	again	RB
 9	.	.
-*	*	*
+*
 0	But	CC
 1	it	PRP
 2	's	VBZ
@@ -1440,7 +1440,7 @@
 13	this	DT
 14	way	NN
 15	.	.
-*	*	*
+*
 0	Yow	UH
 1	!	,
 2	Do	VBP
@@ -1462,12 +1462,12 @@
 18	n't	RB
 19	cry	VB
 20	.	.
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
+*
+*
+*
+*
+*
+*
 0	Ho	UH
 1	!	,
 2	If	IN
@@ -1501,7 +1501,7 @@
 30	real	JJ
 31	problems	NNS
 32	?	.
-*	*	*
+*
 0	And	CC
 1	how	WRB
 2	could	MD
@@ -1514,7 +1514,7 @@
 9	negative	JJ
 10	impact	NN
 11	?	.
-*	*	*
+*
 0	I	PRP
 1	discovered	VBD
 2	that	IN
@@ -1526,7 +1526,7 @@
 8	no	DT
 9	money	NN
 10	.	.
-*	*	*
+*
 0	So	RB
 1	then	RB
 2	,	,
@@ -1550,7 +1550,7 @@
 20	becoming	VBG
 21	shareholders	NNS
 22	?	.
-*	*	*
+*
 0	Given	VBN
 1	the	DT
 2	seasonal	JJ
@@ -1570,7 +1570,7 @@
 16	each	DT
 17	time	NN
 18	.	.
-*	*	*
+*
 0	So	RB
 1	then	RB
 2	,	,
@@ -1595,7 +1595,7 @@
 21	50	CD
 22	yuan	NN
 23	.	.
-*	*	*
+*
 0	Then	RB
 1	,	,
 2	after	IN
@@ -1615,7 +1615,7 @@
 16	get	VB
 17	fertilizer	NN
 18	.	.
-*	*	*
+*
 0	Then	RB
 1	,	,
 2	at	IN
@@ -1633,7 +1633,7 @@
 14	the	DT
 15	differences	NNS
 16	.	.
-*	*	*
+*
 0	And	CC
 1	the	DT
 2	amount	NN
@@ -1658,7 +1658,7 @@
 21	sell	VB
 22	fertilizer	NN
 23	.	.
-*	*	*
+*
 0	That	RB
 1	is	RB
 2	,	,
@@ -1685,8 +1685,8 @@
 23	fertilizer	NN
 24	store	NN
 25	.	.
-*	*	*
-*	*	*
+*
+*
 0	Yes	UH
 1	,	,
 2	and	CC
@@ -1706,7 +1706,7 @@
 16	to	TO
 17	do	VB
 18	?	.
-*	*	*
+*
 0	The	DT
 1	first	JJ
 2	year	NN
@@ -1724,13 +1724,13 @@
 14	20	CD
 15	households	NNS
 16	.	.
-*	*	*
+*
 0	It	PRP
 1	had	VBD
 2	no	DT
 3	impact	NN
 4	.	.
-*	*	*
+*
 0	By	IN
 1	the	DT
 2	second	JJ
@@ -1755,7 +1755,7 @@
 21	it	PRP
 22	public	JJ
 23	.	.
-*	*	*
+*
 0	Good	JJ
 1	grief	NN
 2	!	,
@@ -1784,7 +1784,7 @@
 25	capital	NN
 26	illegally	RB
 27	.	.
-*	*	*
+*
 0	Look	VB
 1	,	,
 2	she	PRP
@@ -1796,7 +1796,7 @@
 8	your	PRP$
 9	money	NN
 10	!	.
-*	*	*
+*
 0	If	IN
 1	she	PRP
 2	could	MD
@@ -1816,7 +1816,7 @@
 16	the	DT
 17	country	NN
 18	!	.
-*	*	*
+*
 0	These	DT
 1	things	NNS
 2	really	RB
@@ -1825,7 +1825,7 @@
 5	our	PRP$
 6	government	NN
 7	.	.
-*	*	*
+*
 0	Our	PRP$
 1	people	NNS
 2	's	POS
@@ -1838,7 +1838,7 @@
 9	all	DT
 10	came	VBD
 11	.	.
-*	*	*
+*
 0	After	IN
 1	they	PRP
 2	all	DT
@@ -1859,7 +1859,7 @@
 17	your	PRP$
 18	business	NN
 19	.	.
-*	*	*
+*
 0	I	PRP
 1	said	VBD
 2	,	,
@@ -1870,7 +1870,7 @@
 7	to	TO
 8	investigate	VB
 9	?	.
-*	*	*
+*
 0	They	PRP
 1	said	VBD
 2	,	,
@@ -1883,7 +1883,7 @@
 9	capital	NN
 10	illegally	RB
 11	.	.
-*	*	*
+*
 0	Because	IN
 1	there	RB
 2	,	,
@@ -1902,7 +1902,7 @@
 15	to	IN
 16	us	PRP
 17	.	.
-*	*	*
+*
 0	When	WRB
 1	they	PRP
 2	said	VBD
@@ -1914,7 +1914,7 @@
 8	was	VBD
 9	startled	JJ
 10	.	.
-*	*	*
+*
 0	I	PRP
 1	said	VBD
 2	,	,
@@ -1939,13 +1939,13 @@
 21	it	PRP
 22	anymore	RB
 23	.	.
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
+*
+*
+*
+*
+*
+*
+*
 0	Because	IN
 1	at	IN
 2	the	DT
@@ -1967,7 +1967,7 @@
 18	's	POS
 19	business	NN
 20	.	.
-*	*	*
+*
 0	You	PRP
 1	ca	MD
 2	n't	RB
@@ -1988,7 +1988,7 @@
 17	for	IN
 18	yourself	PRP
 19	.	.
-*	*	*
+*
 0	So	RB
 1	at	IN
 2	the	DT
@@ -2009,7 +2009,7 @@
 17	n't	RB
 18	agree	VB
 19	.	.
-*	*	*
+*
 0	Then	RB
 1	do	VBP
 2	n't	RB
@@ -2019,7 +2019,7 @@
 6	a	DT
 7	shareholder	NN
 8	.	.
-*	*	*
+*
 0	Do	VBP
 1	n't	RB
 2	let	VB
@@ -2043,7 +2043,7 @@
 20	business	NN
 21	going	VBG
 22	.	.
-*	*	*
+*
 0	Oh	UH
 1	!	,
 2	But	CC
@@ -2060,7 +2060,7 @@
 13	of	IN
 14	service	NN
 15	.	.
-*	*	*
+*
 0	Who	WP
 1	would	MD
 2	have	VB
@@ -2073,7 +2073,7 @@
 9	strongly	RB
 10	opposed	VBN
 11	.	.
-*	*	*
+*
 0	I	PRP
 1	worked	VBD
 2	with	IN
@@ -2082,17 +2082,17 @@
 5	and	CC
 6	again	RB
 7	.	.
-*	*	*
+*
 0	Finally	RB
 1	,	,
 2	he	PRP
 3	agreed	VBD
 4	.	.
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
+*
+*
+*
+*
+*
 0	I	PRP
 1	said	VBD
 2	why	WRB
@@ -2113,7 +2113,7 @@
 17	the	DT
 18	summer	NN
 19	.	.
-*	*	*
+*
 0	They	PRP
 1	said	VBD
 2	what	WP
@@ -2127,7 +2127,7 @@
 10	the	DT
 11	city	NN
 12	?	.
-*	*	*
+*
 0	I	PRP
 1	said	VBD
 2	,	,
@@ -2141,7 +2141,7 @@
 10	the	DT
 11	city	NN
 12	?	.
-*	*	*
+*
 0	That	DT
 1	day	NN
 2	I	PRP
@@ -2171,10 +2171,10 @@
 26	Chunlei	NNP
 27	kindergarten	NN
 28	.	.
-*	*	*
+*
 0	Wow	UH
 1	!	.
-*	*	*
+*
 0	That	DT
 1	first	JJ
 2	time	NN
@@ -2197,7 +2197,7 @@
 19	to	TO
 20	dance	VB
 21	.	.
-*	*	*
+*
 0	That	DT
 1	afternoon	NN
 2	we	PRP
@@ -2208,29 +2208,29 @@
 7	a	DT
 8	step	NN
 9	,	,
-*	*	*
+*
 0	We	PRP
 1	laughed	VBD
 2	all	DT
 3	afternoon	NN
 4	.	.
-*	*	*
-*	*	*
+*
+*
 0	They	PRP
 1	were	VBD
 2	embarrassed	JJ
 3	!	.
-*	*	*
+*
 0	Hah	UH
 1	!	.
-*	*	*
+*
 0	,	,
 1	how	WRB
 2	can	MD
 3	we	PRP
 4	dance	VB
 5	!	.
-*	*	*
+*
 0	Because	IN
 1	at	IN
 2	the	DT
@@ -2257,7 +2257,7 @@
 23	laughing	VBG
 24	hard	RB
 25	.	.
-*	*	*
+*
 0	The	DT
 1	whole	JJ
 2	afternoon	NN
@@ -2270,7 +2270,7 @@
 9	single	JJ
 10	step	NN
 11	.	.
-*	*	*
+*
 0	But	CC
 1	I	PRP
 2	saw	VBD
@@ -2298,19 +2298,19 @@
 24	new	JJ
 25	life	NN
 26	.	.
-*	*	*
+*
 0	So	RB
 1	I	PRP
 2	persisted	VBD
 3	.	.
-*	*	*
+*
 0	I	PRP
 1	persisted	VBD
 2	for	IN
 3	a	DT
 4	month	NN
 5	.	.
-*	*	*
+*
 0	Just	RB
 1	imagine	VB
 2	,	,
@@ -2327,15 +2327,15 @@
 13	joined	VBD
 14	in	RP
 15	.	.
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
+*
+*
+*
+*
+*
+*
+*
+*
+*
 0	Our	PRP$
 1	village	NN
 2	had	VBD
@@ -2349,10 +2349,10 @@
 10	messy	JJ
 11	lanes	NNS
 12	.	.
-*	*	*
+*
 0	Yikes	UH
 1	!	.
-*	*	*
+*
 0	After	IN
 1	it	PRP
 2	rained	VBD
@@ -2372,7 +2372,7 @@
 16	village	NN
 17	committee	NN
 18	.	.
-*	*	*
+*
 0	At	IN
 1	the	DT
 2	time	NN
@@ -2387,14 +2387,14 @@
 11	village	NN
 12	head	NN
 13	.	.
-*	*	*
+*
 0	We	PRP
 1	went	VBD
 2	to	TO
 3	see	VB
 4	him	PRP
 5	.	.
-*	*	*
+*
 0	We	PRP
 1	spoke	VBD
 2	to	IN
@@ -2409,7 +2409,7 @@
 11	say	VB
 12	no	UH
 13	.	.
-*	*	*
+*
 0	The	DT
 1	reason	NN
 2	they	PRP
@@ -2424,11 +2424,11 @@
 11	no	DT
 12	money	NN
 13	.	.
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
+*
+*
+*
+*
+*
 0	Because	IN
 1	we	PRP
 2	all	DT
@@ -2439,7 +2439,7 @@
 7	very	RB
 8	intensely	RB
 9	.	.
-*	*	*
+*
 0	Because	IN
 1	,	,
 2	first	RB
@@ -2458,7 +2458,7 @@
 15	of	IN
 16	us	PRP
 17	.	.
-*	*	*
+*
 0	And	CC
 1	if	IN
 2	we	PRP
@@ -2477,18 +2477,18 @@
 15	it	PRP
 16	done	VBN
 17	?	.
-*	*	*
-*	*	*
+*
+*
 0	Yes	UH
 1	.	.
-*	*	*
-*	*	*
+*
+*
 0	There	EX
 1	were	VBD
 2	no	DT
 3	clashes	NNS
 4	.	.
-*	*	*
+*
 0	For	IN
 1	the	DT
 2	selection	NN
@@ -2513,7 +2513,7 @@
 21	objective	JJ
 22	difficulty	NN
 23	.	.
-*	*	*
+*
 0	And	CC
 1	now	RB
 2	this	DT
@@ -2532,7 +2532,7 @@
 15	against	IN
 16	it	PRP
 17	.	.
-*	*	*
+*
 0	So	RB
 1	there	EX
 2	's	VBZ
@@ -2543,7 +2543,7 @@
 7	of	IN
 8	dependency	NN
 9	.	.
-*	*	*
+*
 0	So	RB
 1	it	PRP
 2	's	VBZ
@@ -2558,7 +2558,7 @@
 11	to	TO
 12	mobilize	VB
 13	.	.
-*	*	*
+*
 0	Because	IN
 1	,	,
 2	it	PRP
@@ -2566,7 +2566,7 @@
 4	everybody	NN
 5	agreed	VBD
 6	.	.
-*	*	*
+*
 0	In	IN
 1	the	DT
 2	end	NN
@@ -2586,26 +2586,26 @@
 16	complete	VB
 17	it	PRP
 18	.	.
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
 0	Yes	UH
 1	.	.
-*	*	*
+*
 0	,	,
 1	as	IN
 2	we	PRP
@@ -2634,7 +2634,7 @@
 25	controlling	NN
 26	shares	NNS
 27	.	.
-*	*	*
+*
 0	I	PRP
 1	said	VBD
 2	what	WP
@@ -2648,7 +2648,7 @@
 10	paint	NN
 11	plant	NN
 12	.	.
-*	*	*
+*
 0	It	PRP
 1	's	VBZ
 2	not	RB
@@ -2672,7 +2672,7 @@
 20	in	IN
 21	advance	NN
 22	.	.
-*	*	*
+*
 0	So	RB
 1	then	RB
 2	we	PRP
@@ -2682,7 +2682,7 @@
 6	the	DT
 7	meeting	NN
 8	.	.
-*	*	*
+*
 0	You	PRP
 1	ca	MD
 2	n't	RB
@@ -2691,14 +2691,14 @@
 5	this	DT
 6	way	NN
 7	,	,
-*	*	*
+*
 0	That	DT
 1	way	NN
 2	is	VBZ
 3	too	RB
 4	arbitrary	JJ
 5	.	.
-*	*	*
+*
 0	I	PRP
 1	said	VBD
 2	,	,
@@ -2726,7 +2726,7 @@
 24	'll	MD
 25	talk	VB
 26	.	.
-*	*	*
+*
 0	If	IN
 1	you	PRP
 2	think	VBP
@@ -2749,7 +2749,7 @@
 19	on	IN
 20	paper	NN
 21	.	.
-*	*	*
+*
 0	Your	PRP$
 1	aim	NN
 2	in	IN
@@ -2772,14 +2772,14 @@
 19	own	JJ
 20	interests	NNS
 21	?	.
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
+*
+*
+*
+*
+*
+*
+*
+*
 0	Every	DT
 1	month	NN
 2	we	PRP
@@ -2790,7 +2790,7 @@
 7	a	DT
 8	report	NN
 9	.	.
-*	*	*
+*
 0	As	IN
 1	we	PRP
 2	began	VBD
@@ -2822,7 +2822,7 @@
 28	ten	CD
 29	years	NNS
 30	.	.
-*	*	*
+*
 0	The	DT
 1	association	NN
 2	is	VBZ
@@ -2832,7 +2832,7 @@
 6	Zhaizi	NNP
 7	Village	NNP
 8	.	.
-*	*	*
+*
 0	Of	RB
 1	course	RB
 2	,	,
@@ -2850,14 +2850,14 @@
 14	that	DT
 15	imply	VB
 16	?	.
-*	*	*
+*
 0	I	PRP
 1	say	VBP
 2	,	,
 3	two	CD
 4	things	NNS
 5	.	.
-*	*	*
+*
 0	First	RB
 1	,	,
 2	we	PRP
@@ -2880,7 +2880,7 @@
 19	of	IN
 20	China	NNP
 21	.	.
-*	*	*
+*
 0	Second	RB
 1	,	,
 2	,	,
@@ -2898,7 +2898,7 @@
 14	number	NN
 15	one	CD
 16	.	.
-*	*	*
+*
 0	We	PRP
 1	are	VBP
 2	all	DT
@@ -2912,7 +2912,7 @@
 10	two	CD
 11	areas	NNS
 12	.	.
-*	*	*
+*
 0	This	DT
 1	is	VBZ
 2	the	DT
@@ -2926,7 +2926,7 @@
 10	for	IN
 11	ourselves	PRP
 12	.	.
-*	*	*
+*
 0	But	CC
 1	if	IN
 2	we	PRP
@@ -2952,7 +2952,7 @@
 22	's	VBZ
 23	it	PRP
 24	.	.
-*	*	*
+*
 0	You	PRP
 1	have	VBP
 2	to	TO
@@ -2970,7 +2970,7 @@
 14	antiquated	JJ
 15	concepts	NNS
 16	.	.
-*	*	*
+*
 0	You	PRP
 1	have	VBP
 2	to	TO
@@ -2978,7 +2978,7 @@
 4	challenge	VB
 5	yourself	PRP
 6	.	.
-*	*	*
+*
 0	So	RB
 1	this	DT
 2	quality	NN
@@ -2994,11 +2994,11 @@
 12	to	IN
 13	it	PRP
 14	.	.
-*	*	*
-*	*	*
-*	*	*
-*	*	*
-*	*	*
+*
+*
+*
+*
+*
 0	If	IN
 1	you	PRP
 2	really	RB
@@ -3015,8 +3015,8 @@
 13	than	IN
 14	200,000	CD
 15	.	.
-*	*	*
-*	*	*
+*
+*
 0	It	PRP
 1	does	VBZ
 2	n't	RB
@@ -3030,7 +3030,7 @@
 10	very	RB
 11	worthwhile	JJ
 12	.	.
-*	*	*
+*
 0	This	DT
 1	is	VBZ
 2	The	DT
@@ -3050,13 +3050,13 @@
 16	in	IN
 17	Boston	NNP
 18	.	.
-*	*	*
+*
 0	I	PRP
 1	am	VBP
 2	Tony	NNP
 3	Kahn	NNP
 4	.	.
-*	*	*
+*
 0	The	DT
 1	drama	NN
 2	in	IN
@@ -3094,7 +3094,7 @@
 34	act	NN
 35	I	CD
 36	.	.
-*	*	*
+*
 0	Talks	NNS
 1	today	NN
 2	between	IN
@@ -3120,7 +3120,7 @@
 22	than	IN
 23	light	NN
 24	.	.
-*	*	*
+*
 0	Kostunica	NNP
 1	's	POS
 2	people	NNS
@@ -3163,7 +3163,7 @@
 39	the	DT
 40	police	NNS
 41	.	.
-*	*	*
+*
 0	The	DT
 1	World	NNP
 2	's	POS
@@ -3173,7 +3173,7 @@
 6	in	IN
 7	Belgrade	NNP
 8	.	.
-*	*	*
+*
 0	Nenad	NNP
 1	,	,
 2	what	WP
@@ -3185,7 +3185,7 @@
 8	Milosevic	NNP
 9	ally	NN
 10	?	.
-*	*	*
+*
 0	Well	UH
 1	,	,
 2	it	PRP
@@ -3202,7 +3202,7 @@
 13	of	IN
 14	Serbia	NNP
 15	.	.
-*	*	*
+*
 0	We	PRP
 1	have	VBP
 2	to	TO
@@ -3243,7 +3243,7 @@
 37	republican	JJ
 38	level	NN
 39	.	.
-*	*	*
+*
 0	Yugoslavia	NNP
 1	consists	VBZ
 2	of	IN
@@ -3278,14 +3278,14 @@
 31	in	IN
 32	place	NN
 33	.	.
-*	*	*
+*
 0	But	CC
 1	that	DT
 2	's	VBZ
 3	all	DT
 4	theory	NN
 5	.	.
-*	*	*
+*
 0	In	IN
 1	practice	NN
 2	things	NNS
@@ -3293,7 +3293,7 @@
 4	slightly	RB
 5	different	JJ
 6	.	.
-*	*	*
+*
 0	The	DT
 1	whole	JJ
 2	structure	NN
@@ -3311,7 +3311,7 @@
 14	,	,
 15	Milosevic	NNP
 16	.	.
-*	*	*
+*
 0	Once	IN
 1	he	PRP
 2	collapsed	VBD
@@ -3340,7 +3340,7 @@
 25	with	IN
 26	him	PRP
 27	.	.
-*	*	*
+*
 0	Well	UH
 1	,	,
 2	since	IN
@@ -3385,7 +3385,7 @@
 41	doing	VBG
 42	that	DT
 43	?	.
-*	*	*
+*
 0	The	DT
 1	taking	NN
 2	over	RP
@@ -3409,7 +3409,7 @@
 20	takes	VBZ
 21	time	NN
 22	.	.
-*	*	*
+*
 0	Everybody	NN
 1	is	VBZ
 2	impatient	JJ
@@ -3421,7 +3421,7 @@
 8	and	CC
 9	Serbia	NNP
 10	.	.
-*	*	*
+*
 0	The	DT
 1	people	NNS
 2	that	WDT
@@ -3463,7 +3463,7 @@
 38	the	DT
 39	moment	NN
 40	.	.
-*	*	*
+*
 0	However	RB
 1	,	,
 2	Mr.	NNP
@@ -3494,7 +3494,7 @@
 27	much	RB
 28	longer	RBR
 29	.	.
-*	*	*
+*
 0	They	PRP
 1	have	VBP
 2	indeed	RB
@@ -3542,7 +3542,7 @@
 44	of	IN
 45	Serbia	NNP
 46	.	.
-*	*	*
+*
 0	Let	VB
 1	's	PRP
 2	talk	VB
@@ -3570,7 +3570,7 @@
 24	is	VBZ
 25	Kosovo	NNP
 26	.	.
-*	*	*
+*
 0	There	EX
 1	has	VBZ
 2	been	VBN
@@ -3594,7 +3594,7 @@
 20	the	DT
 21	year	NN
 22	.	.
-*	*	*
+*
 0	What	WP
 1	can	MD
 2	you	PRP
@@ -3611,7 +3611,7 @@
 13	that	DT
 14	area	NN
 15	?	.
-*	*	*
+*
 0	Well	UH
 1	,	,
 2	it	PRP
@@ -3633,7 +3633,7 @@
 18	Belgrade	NNP
 19	newspaper	NN
 20	.	.
-*	*	*
+*
 0	They	PRP
 1	quoted	VBD
 2	Zoran	NNP
@@ -3670,7 +3670,7 @@
 33	and	CC
 34	Albania	NNP
 35	.	.
-*	*	*
+*
 0	Basically	RB
 1	it	PRP
 2	is	VBZ
@@ -3714,7 +3714,7 @@
 40	the	DT
 41	borders	NNS
 42	.	.
-*	*	*
+*
 0	That	DT
 1	part	NN
 2	of	IN
@@ -3762,7 +3762,7 @@
 44	Milosevic	NNP
 45	forces	NNS
 46	.	.
-*	*	*
+*
 0	Well	UH
 1	,	,
 2	how	WRB
@@ -3781,7 +3781,7 @@
 15	the	DT
 16	government	NN
 17	?	.
-*	*	*
+*
 0	Who	WP
 1	is	VBZ
 2	there	EX
@@ -3807,7 +3807,7 @@
 22	this	DT
 23	point	NN
 24	?	.
-*	*	*
+*
 0	Well	UH
 1	,	,
 2	at	IN
@@ -3827,7 +3827,7 @@
 16	Belgrade	NNP
 17	first	RB
 18	.	.
-*	*	*
+*
 0	Yesterday	NN
 1	,	,
 2	we	PRP
@@ -3858,7 +3858,7 @@
 27	Southeast	NNP
 28	Europe	NNP
 29	.	.
-*	*	*
+*
 0	We	PRP
 1	also	RB
 2	saw	VBD
@@ -3893,7 +3893,7 @@
 31	to	IN
 32	Belgrade	NNP
 33	.	.
-*	*	*
+*
 0	He	PRP
 1	will	MD
 2	be	VB
@@ -3907,7 +3907,7 @@
 10	President	NNP
 11	Clinton	NNP
 12	.	.
-*	*	*
+*
 0	He	PRP
 1	will	MD
 2	hold	VB
@@ -3948,7 +3948,7 @@
 37	in	IN
 38	Serbia	NNP
 39	.	.
-*	*	*
+*
 0	So	RB
 1	I	PRP
 2	believe	VBP
@@ -3975,7 +3975,7 @@
 23	this	DT
 24	moment	NN
 25	.	.
-*	*	*
+*
 0	The	DT
 1	World	NNP
 2	's	POS
@@ -3984,7 +3984,7 @@
 5	in	IN
 6	Belgrade	NNP
 7	.	.
-*	*	*
+*
 0	Thank	VBP
 1	you	PRP
 2	very	RB
@@ -3994,13 +3994,13 @@
 6	with	IN
 7	us	PRP
 8	.	.
-*	*	*
+*
 0	You	PRP
 1	are	VBP
 2	welcome	JJ
 3	Tony	NNP
 4	.	.
-*	*	*
+*
 0	SANTA	NNP
 1	FE	NNP
 2	PACIFIC	NNP
@@ -4037,7 +4037,7 @@
 33	Oct.	NNP
 34	31	CD
 35	.	.
-*	*	*
+*
 0	The	DT
 1	company	NN
 2	is	VBZ
@@ -4054,4 +4054,4 @@
 13	Western	JJ
 14	states	NNS
 15	.	.
-*	*	*
+*
