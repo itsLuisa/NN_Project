@@ -6,7 +6,7 @@ with open("sample.tsv", encoding="utf-8") as f:
     tag_dict = defaultdict(int)
     for line in f:
         if "*" in line:
-            sequence_length_list.append(int(previous_line.split()[0]))
+            sequence_length_list.append(int(previous_line.split()[0]) + 1)
         else:
             tag_dict[line.split()[2]] += 1
         previous_line = line
