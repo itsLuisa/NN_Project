@@ -2,18 +2,19 @@
 Just two students trying to get a neural network to work<br>
 
 ## Table of contents
-* [Requirements] (#requirements)
-* [Files] (#files)
+* [General information](#general-information)
+* [Data preprocessing](#data-preprocessing)
 
-## Requirements
-* python package collections
+## General information
+### Requirements
+* python packages:
+    * collections
 
-## Files
-* *sample.tsv:* made by using the unix the following command:
+## Data preprocessing
+* *preprocessing.sh:* shell-script for preprocessing, takes input file as first argument and output file as second argument
+* *sample.tsv:* created by using preprocessing.sh like this:
 ```
-$ cat sample.conll | grep -v "^#" | sed 's/ /|/g' | sed 's/|\\+/\t/g' | cut -d$'\t' -f3,4,5 | sed 's/^$/*/' > sample.tsv
+$ bash preprocessing.sh sample.conll sample.tsv
 ```
-
 * *get_information.py:* produces sample.info
-
 * *sample.info:* includes information about sample.tsv
