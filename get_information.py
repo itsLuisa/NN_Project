@@ -9,7 +9,7 @@ def main():
         sequence_length_list = list()
         tag_dict = defaultdict(int)
         for line in f:
-            if "*" in line:
+            if line == "*\n":
                 sequence_length_list.append(int(previous_line.split()[0]) + 1)
             else:
                 tag_dict[line.split()[2]] += 1
