@@ -3,10 +3,12 @@ Just two students trying to get a neural network to work.<br>
 More detailed description will follow.
 
 ## Table of contents
-* [General information](#general-information)
-* [Data preprocessing](#data-preprocessing)
+* [General Information](#general-information)
+* [Data Preprocessing](#data-preprocessing)
+* [Creating Splits](#creating-splits)
+* [Data Loading](#data-loading)
 
-## General information
+## General Information
 ### Requirements
 You can either use the file *environment.yaml* to build a conda environment like this:
 ```
@@ -19,7 +21,7 @@ or install the following python packages by hand:
 
 After having set this up, you should be able to run all the code from this repository.
 
-## Data preprocessing
+## Data Preprocessing
 * *preprocessing.sh:* shell-script for preprocessing, takes input file as first argument and output file as second argument, like this:
 ```
 $ bash preprocessing.sh sample.conll sample.tsv
@@ -29,3 +31,17 @@ Use it like this:
 ```
 $ python get_information.py sample.tsv sample.info
 ```
+
+## Creating Splits
+* *splitting_data.py:* uses an input file (sample.tsv) to produce three output files (sample_train.tsv, sample_test.tsv, sample_val.tsv).
+Also provide the proportions by which you would like to split the input file (they have to add up to 100 in order for every line of the input file to be in one of the output files).
+Use it like this:
+```
+$ python splitting_data.py sample.tsv sample_train.tsv sample_test.tsv sample_val.tsv 60:20:20
+```
+TODO: set encodings right
+
+## Data Loading
+* *data_loading.py:* Still in progress, still facing a windows permission error.
+* *tokenizer.py:* To be uploaded, still suffers from the error in *data_loading.py*.
+Also: HfArgumentParser is not happy with .tsv-files. Use .csv instead?
