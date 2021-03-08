@@ -1,32 +1,10 @@
 name: Valentina_Luisa
 channels:
+  - conda-forge
   - defaults
+
 dependencies:
-  - _pytorch_select=0.1=cpu_0
-  - blas=1.0=mkl
-  - ca-certificates=2021.1.19=haa95532_0
-  - certifi=2020.12.5=py37haa95532_0
-  - cffi=1.14.5=py37hcd4344a_0
-  - intel-openmp=2019.4=245
-  - libmklml=2019.0.5=haa95532_0
-  - mkl=2019.4=245
-  - mkl-service=2.3.0=py37h196d8e1_0
-  - mkl_fft=1.2.1=py37h46781fe_0
-  - mkl_random=1.0.4=py37h343c172_0
-  - ninja=1.10.2=py37h6d14046_0
-  - numpy=1.19.2=py37hadc3359_0
-  - numpy-base=1.19.2=py37ha3acd2a_0
-  - openssl=1.1.1j=h2bbff1b_0
-  - pip=21.0.1=py37haa95532_0
-  - pycparser=2.20=py_2
-  - python=3.7.9=h60c2a47_0
-  - pytorch=1.6.0=cpu_py37h538a6d7_0
-  - setuptools=52.0.0=py37haa95532_0
-  - six=1.15.0=py37haa95532_0
-  - sqlite=3.33.0=h2a8f88b_0
-  - vc=14.2=h21ff451_1
-  - vs2015_runtime=14.27.29016=h5e58377_2
-  - wheel=0.36.2=pyhd3eb1b0_0
-  - wincertstore=0.2=py37_0
-  - zlib=1.2.11=h62dcd97_4
-prefix: C:\Users\Luisa\anaconda3\envs\Valentina_Luisa
+  - python=3.8
+  - pip
+  - numpy
+  - datasets
