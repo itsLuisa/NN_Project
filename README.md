@@ -44,4 +44,9 @@ TODO: set encodings right
 ## Data Loading
 * *data_loading.py:* Still in progress, still facing a windows permission error.
 * *tokenizer.py:* To be uploaded, still suffers from the error in *data_loading.py*.
-Also: HfArgumentParser is not happy with .tsv-files. Use .csv instead?
+Also: HfArgumentParser (line 150) is not happy with .tsv-files. Use .csv instead?<br>
+Used script from:
+https://github.com/huggingface/transformers/blob/master/examples/token-classification/run_ner.py <br>
+and made changes in:
+  - line 213, 217: data loading
+  - line 227, 229: column naming
