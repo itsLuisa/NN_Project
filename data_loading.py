@@ -1,5 +1,6 @@
 import datasets
 import csv
+import sys
 
 logger = datasets.logging.get_logger(__name__)
 
@@ -108,15 +109,19 @@ class Sample(datasets.GeneratorBasedBuilder):
 
 
 def main():
+    training_file = sys.argv[1]
+    test_file = sys.argv[2]
+    validation_file = sys.argv[3]
+
     dataset = datasets.load_dataset(
         "data_loading.py", data_files={
-            "train": "train.tsv",
-            "test": "test.tsv",
-            "validation": "val.tsv"
+            "train": training_file,
+            "test": test_file,
+            "validation": validation_file
         }
     )
 
-    #print(dataset)
+    print(dataset)
 
 if __name__=="__main__":
     main()

@@ -22,18 +22,18 @@ or install the following python packages by hand:
 After having set this up, you should be able to run all the code from this repository.
 
 ## Data Preprocessing
-* *preprocessing.sh:* shell-script for preprocessing, takes input file as first argument and output file as second argument, like this:
+* *preprocessing.sh:* Shell-script for preprocessing, takes input file as first argument and output file as second argument, like this:
 ```
 $ bash preprocessing.sh sample.conll sample.tsv
 ```
-* *get_information.py:* uses an input file (sample.tsv) to produce an output file (sample.info), which includes useful information about the dataset.
+* *get_information.py:* Uses an input file (sample.tsv) to produce an output file (sample.info), which includes useful information about the dataset.
 Use it like this:
 ```
 $ python get_information.py sample.tsv sample.info
 ```
 
 ## Creating Splits
-* *splitting_data.py:* uses an input file (sample.tsv) to produce three output files (sample_train.tsv, sample_test.tsv, sample_val.tsv).
+* *splitting_data.py:* Uses an input file (sample.tsv) to produce three output files (sample_train.tsv, sample_test.tsv, sample_val.tsv).
 Also provide the proportions by which you would like to split the input file (they have to add up to 100 in order for every line of the input file to be in one of the output files).
 Use it like this:
 ```
@@ -42,11 +42,13 @@ $ python splitting_data.py sample.tsv sample_train.tsv sample_test.tsv sample_va
 TODO: set encodings right
 
 ## Data Loading
-* *data_loading.py:* Still in progress, still facing a windows permission error.
-* *tokenizer.py:* To be uploaded, still suffers from the error in *data_loading.py*.
-Also: HfArgumentParser (line 150) is not happy with .tsv-files. Use .csv instead?<br>
-Used script from:
-https://github.com/huggingface/transformers/blob/master/examples/token-classification/run_ner.py <br>
-and made changes in:
-  - line 213, 217: data loading
-  - line 227, 229: column naming
+* *data_loading.py:* Loads the data. Will be called inside the tokenizer so no need to execute it separately.
+If you still wish to, you can do it  by simply providing the three splits like this:
+```
+$ python data_loading.py sample_train.tsv sample_test.tsv sample_val.tsv
+```
+* *tokenizer.py:* Used script from:
+https://github.com/huggingface/transformers/blob/master/examples/token-classification/run_ner.py <br> 
+Working on how to pass own data loading script.<br>
+Also: HfArgumentParser (line 171) is not happy with .tsv-files. Use .csv instead?<br>
+
