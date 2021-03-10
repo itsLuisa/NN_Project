@@ -12,7 +12,7 @@ class SampleConfig(datasets.BuilderConfig):
 
 class Sample(datasets.GeneratorBasedBuilder):
     BUILDER_CONFIGS = [
-        SampleConfig(name="conll2003", version=datasets.Version("1.0.0"), description="Conll2003 dataset"),
+        SampleConfig(name="sample", version=datasets.Version("1.0.0"), description="Conll2003 dataset"),
     ]
 
     def _info(self):
@@ -20,7 +20,7 @@ class Sample(datasets.GeneratorBasedBuilder):
             description="Dataset with words and their POS-Tags",
             features=datasets.Features(
                 {
-                    "id": datasets.Value("string"),
+                    "id": datasets.Sequence(datasets.Value("string")),
                     "tokens": datasets.Sequence(datasets.Value("string")),
                     "pos_tags": datasets.Sequence(
                         datasets.features.ClassLabel(
@@ -77,11 +77,11 @@ class Sample(datasets.GeneratorBasedBuilder):
         )
 
     def _split_generators(self, dl_manager):
-        loaded_files = dl_manager.download_and_extract(self.config.data_files)
+        loaded_files = dl_manager.extract(self.config.data_files)
         return [
             datasets.SplitGenerator(name=datasets.Split.TRAIN, gen_kwargs={"filepath": loaded_files["train"]}),
             datasets.SplitGenerator(name=datasets.Split.TEST, gen_kwargs={"filepath": loaded_files["test"]}),
-            datasets.SplitGenerator(name=datasets.Split.VALIDATION, gen_kwargs={"filepath": loaded_files["val"]})
+            datasets.SplitGenerator(name=datasets.Split.VALIDATION, gen_kwargs={"filepath": loaded_files["validation"]})
         ]
 
     def _generate_examples(self, filepath):
@@ -112,7 +112,7 @@ def main():
         "data_loading.py", data_files={
             "train": "train.tsv",
             "test": "test.tsv",
-            "val": "val.tsv"
+            "validation": "val.tsv"
         }
     )
 
