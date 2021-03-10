@@ -87,7 +87,7 @@ class Sample(datasets.GeneratorBasedBuilder):
 
     def _generate_examples(self, filepath):
         logger.info("generating examples from = %s", filepath)
-        with open(filepath, encoding="cp1252") as f:
+        with open(filepath, encoding="utf-8") as f:
             data = csv.reader(f, delimiter="\t")
             ids = list()
             tokens = list()
