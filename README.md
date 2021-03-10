@@ -18,6 +18,8 @@ $ conda activate Valentina_Luisa
 or install the following python packages by hand:
 * collections
 * sys
+* datasets
+* seqeval
 
 After having set this up, you should be able to run all the code from this repository.
 
@@ -39,7 +41,7 @@ Use it like this:
 ```
 $ python splitting_data.py sample.tsv sample_train.tsv sample_test.tsv sample_val.tsv 60:20:20
 ```
-TODO: set encodings right
+
 
 ## Data Loading
 * *data_loading.py:* Loads the data. Will be called inside the tokenizer so no need to execute it separately.
@@ -49,6 +51,6 @@ $ python data_loading.py sample_train.tsv sample_test.tsv sample_val.tsv
 ```
 * *tokenizer.py:* Used script from:
 https://github.com/huggingface/transformers/blob/master/examples/token-classification/run_ner.py <br> 
-Working on how to pass own data loading script.<br>
+TODO: work on how to pass own data loading script.<br>
 Also: HfArgumentParser (line 171) is not happy with .tsv-files. Use .csv instead?<br>
 
