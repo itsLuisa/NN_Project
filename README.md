@@ -7,6 +7,8 @@ More detailed description will follow.
 * [Data Preprocessing](#data-preprocessing)
 * [Creating Splits](#creating-splits)
 * [Data Loading](#data-loading)
+* [Tokenizing](#tokenizing)
+* [Embeddings](#embeddings)
 
 ## General Information
 ### Requirements
@@ -49,6 +51,8 @@ If you still wish to, you can do it  by simply providing the three splits like t
 ```
 $ python data_loading.py sample_train.tsv sample_test.tsv sample_val.tsv
 ```
+
+## Tokenizing
 * *tokenizer.py:* Used script from:
 https://github.com/huggingface/transformers/blob/master/examples/token-classification/run_ner.py <br> 
 TODO: work on how to pass own data loading script. Is it possible without changing the original code?<br>
@@ -60,3 +64,5 @@ A lot of variables can be specified here, but for now we use the tokenizer like 
 ```
 $ python tokenizer.py --model_name_or_path "bert-base-uncased" --output_dir ./ --task_name pos --train_file sample_train.csv --test_file sample_test.csv --validation_file sample_val.csv
 ```
+## Embeddings
+* TODO
