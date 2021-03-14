@@ -47,22 +47,17 @@ $ python splitting_data.py sample.tsv sample_train.tsv sample_test.tsv sample_va
 
 ## Data Loading
 * *data_loading.py:* Loads the data. Will be called inside the tokenizer so no need to execute it separately.
-If you still wish to, you can do it  by simply providing the three splits like this:
+If you still wish to, you can do it by simply providing the three splits like this:
 ```
 $ python data_loading.py sample_train.tsv sample_test.tsv sample_val.tsv
 ```
 
 ## Tokenizing
-* *tokenizer.py:* Used script from:
-https://github.com/huggingface/transformers/blob/master/examples/token-classification/run_ner.py <br> 
-TODO: work on how to pass own data loading script. Is it possible without changing the original code?<br>
-Also: HfArgumentParser (line 171) is not happy with .tsv-files. Use .csv instead?<br>
-Made one small change in line 238 because we want to use our own data loading script but also local files,
-which cannot be specified with any argument when calling the original script. <br>
-Could not get it to work with tsv-files yet, but we can simply substitute the suffixes of the output files with .csv in the [Creating Splits](#creating-splits) step.<br>
-A lot of variables can be specified here, but for now we use the tokenizer like this:
+* *tokenizer.py:* Tokenizes the data. It uses the data loading script *data_loading.py* and the tokenizer "bert-base-cased".
+Will be called inside the embeddings so no need to execute it.
+If you still wish to, you can do it by simply providing the three splits like this:
 ```
-$ python tokenizer.py --model_name_or_path "bert-base-uncased" --output_dir ./ --task_name pos --train_file sample_train.csv --test_file sample_test.csv --validation_file sample_val.csv
+$ python tokenizer.py sample_train.tsv sample_test.tsv sample_val.tsv
 ```
 ## Embeddings
 * TODO
