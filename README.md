@@ -54,7 +54,7 @@ $ python data_loading.py sample_train.tsv sample_test.tsv sample_val.tsv
 
 ## Tokenizing
 * *tokenizer.py:* Tokenizes the data. It uses the data loading script *data_loading.py* and the tokenizer "bert-base-cased".
-Will be called inside the embeddings so no need to execute it.
+Will be called inside the embeddings so no need to execute it separately.
 If you still wish to, you can do it by simply providing the three splits like this:
 ```
 $ python tokenizer.py sample_train.tsv sample_test.tsv sample_val.tsv
