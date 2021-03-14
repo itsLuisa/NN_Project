@@ -93,7 +93,6 @@ class Sample(datasets.GeneratorBasedBuilder):
             tokens = list()
             pos_tags = list()
             for id_, line in enumerate(data):
-                #print(line)
                 if len(line) == 1:
                     if tokens:
                         yield id_, {"id": ids, "tokens": tokens, "pos_tags": pos_tags}
