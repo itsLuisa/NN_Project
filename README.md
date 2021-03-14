@@ -9,6 +9,7 @@ More detailed description will follow.
 * [Data Loading](#data-loading)
 * [Tokenizing](#tokenizing)
 * [Embeddings](#embeddings)
+* [Neural Network](#neural-network)
 
 ## General Information
 ### Requirements
@@ -22,6 +23,8 @@ or install the following python packages by hand:
 * sys
 * datasets
 * seqeval
+
+TODO: Update environment!
 
 After having set this up, you should be able to run all the code from this repository.
 
@@ -59,5 +62,22 @@ If you still wish to, you can do it by simply providing the three splits like th
 ```
 $ python tokenizer.py sample_train.tsv sample_test.tsv sample_val.tsv
 ```
+
 ## Embeddings
-* TODO
+* *embeddings.py:* Creates BERT embeddings using the tokenizing tensors from the previous step.
+Again, this will be called inside the Neural Network script so no need to execute it separately.
+If you still wish to (but be aware that it might take a while), you can do it by simply providing the three splits like this:
+```
+$ python embeddings.py sample_train.tsv sample_test.tsv sample_val.tsv
+```
+
+## Neural Network
+* *Neural_Network.ipynb:* This is the actual neural network.
+We put this in a jupyter notebook, so it is easier to run different parts without having to rerun everything.
+To successfully run this, you need three data files containing train, test and validation split.
+That means, run these files in advance:
+  - *preprocessing.sh*
+  - *splitting_data.py*
+* The remaining files will be called in the notebook.
+* NOTE: Still incomplete
+* TODO: Think of good network architecture and implement it
