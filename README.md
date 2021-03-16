@@ -23,8 +23,9 @@ or install the following python packages by hand:
 * sys
 * datasets
 * seqeval
-
-TODO: Update environment!
+* transformers
+* torch
+* matplotlib
 
 After having set this up, you should be able to run all the code from this repository.
 
@@ -80,4 +81,5 @@ That means, run these files in advance:
   - *splitting_data.py*
 * The remaining files will be called in the notebook.
 * NOTE: Still incomplete
-* TODO: Think of good network architecture and implement it
+* CURRENT STATE: Decided on LSTM for the architecture and are still trying to implement it so that it works.
+We are unsure about where to incorporate the embeddings. This and other questions are further explained in the notebook.

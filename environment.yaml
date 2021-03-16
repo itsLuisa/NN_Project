@@ -9,3 +9,6 @@ dependencies:
   - numpy
   - datasets
   - seqeval
+  - transformers
+  - pytorch
+  - matplotlib
