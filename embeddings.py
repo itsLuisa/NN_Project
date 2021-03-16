@@ -27,8 +27,12 @@ def main():
     all_encodings_test = tokenize_and_encode("test", data_sets)
     all_encodings_validation = tokenize_and_encode("validation", data_sets)
 
-    for i in all_encodings_train:
-        print(embedding_model(i["input_ids"]))
+    pos_encoded_train = encode_pos("train", data_sets)
+    pos_encoded_test = encode_pos("test", data_sets)
+    pos_encoded_validation = encode_pos("validation", data_sets)
+
+    for sentence in all_encodings_train:
+        print(embedding_model(sentence["input_ids"]))
 
 if __name__ == "__main__":
     main()
