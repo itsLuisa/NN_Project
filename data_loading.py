@@ -26,12 +26,15 @@ class Sample(datasets.GeneratorBasedBuilder):
                     "pos_tags": datasets.Sequence(
                         datasets.features.ClassLabel(
                             names=[
+                                "$",
                                 "''",
                                 ",",
                                 "-LRB-",
                                 "-RRB-",
                                 ".",
                                 ":",
+                                "ADD",
+                                "AFX",
                                 "CC",
                                 "CD",
                                 "DT",
@@ -42,7 +45,9 @@ class Sample(datasets.GeneratorBasedBuilder):
                                 "JJ",
                                 "JJR",
                                 "JJS",
+                                "LS",
                                 "MD",
+                                "NFP",
                                 "NN",
                                 "NNP",
                                 "NNPS",
@@ -55,6 +60,7 @@ class Sample(datasets.GeneratorBasedBuilder):
                                 "RBR",
                                 "RBS",
                                 "RP",
+                                "SYM",
                                 "TO",
                                 "UH",
                                 "VB",
@@ -65,8 +71,11 @@ class Sample(datasets.GeneratorBasedBuilder):
                                 "VBZ",
                                 "WDT",
                                 "WP",
+                                "WP$",
                                 "WRB",
-                                "``"
+                                "XX",
+                                "``",
+                                "document"
                             ]
                         )
                     ),
@@ -88,11 +97,12 @@ class Sample(datasets.GeneratorBasedBuilder):
     def _generate_examples(self, filepath):
         logger.info("generating examples from = %s", filepath)
         with open(filepath, encoding="utf-8") as f:
-            data = csv.reader(f, delimiter="\t")
+            #data = csv.reader(f, delimiter='\t')
             ids = list()
             tokens = list()
             pos_tags = list()
-            for id_, line in enumerate(data):
+            for id_, line in enumerate(f):
+                line = line.strip().split("\t")
                 if len(line) == 1:
                     if tokens:
                         yield id_, {"id": ids, "tokens": tokens, "pos_tags": pos_tags}
@@ -100,6 +110,7 @@ class Sample(datasets.GeneratorBasedBuilder):
                         tokens = list()
                         pos_tags = list()
                 else:
+                    print(line)
                     ids.append(line[0])
                     tokens.append(line[1])
                     pos_tags.append(line[2])
