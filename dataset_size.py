@@ -24,7 +24,7 @@ def main():
     # 2 294 841 lines in ontonetes.tsv
     dataset = sys.argv[1]
     new_data = sys.argv[2]
-    size = sys.argv[3]
+    size = int(sys.argv[3])
     sizing_the_data(dataset, new_data, size)
 
 if __name__=="__main__":
