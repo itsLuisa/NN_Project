@@ -110,7 +110,7 @@ class Sample(datasets.GeneratorBasedBuilder):
                         tokens = list()
                         pos_tags = list()
                 else:
-                    print(line)
+                    #print(line)
                     ids.append(line[0])
                     tokens.append(line[1])
                     pos_tags.append(line[2])
