@@ -2,13 +2,18 @@ from transformers import BertTokenizer
 from datasets import load_dataset
 import sys
 
-def tokenize_and_encode(split, data_sets):
+def initialize_tokenizer():
     tz = BertTokenizer.from_pretrained("bert-base-cased")
+    return tz
+
+def tokenize_and_encode(split, data_sets, tokenizer):
+    tz = tokenizer
     all_encodings = list()
     for sentence in data_sets[split]["tokens"]:
         if sentence:
+            ids = tz.convert_tokens_to_ids(sentence)
             encoded = tz.encode_plus(
-                text=sentence,
+                text=ids,
                 is_split_into_words=True,
                 add_special_tokens=True,
                 truncation=True,
@@ -20,8 +25,8 @@ def tokenize_and_encode(split, data_sets):
             all_encodings.append(encoded)
     return all_encodings
 
-def encode_pos(split, data_sets):
-    tz = BertTokenizer.from_pretrained("bert-base-cased")
+def encode_pos(split, data_sets, tokenizer):
+    tz = tokenizer
     all_encodings = list()
     for sentence in data_sets[split]["pos_tags"]:
         if sentence:
@@ -51,16 +56,14 @@ def main():
 
     data_sets = load_dataset("data_loading.py", data_files=data_files)
 
-    all_encodings_train = tokenize_and_encode("train", data_sets)
-    all_encodings_test = tokenize_and_encode("test", data_sets)
-    all_encodings_validation = tokenize_and_encode("validation", data_sets)
+    # initialize the tokenizer
+    tz = initialize_tokenizer()
 
-    pos_encoded_train = encode_pos("train", data_sets)
-    pos_encoded_test = encode_pos("test", data_sets)
-    pos_encoded_validation = encode_pos("validation", data_sets)
+    all_encodings_train = tokenize_and_encode("train", data_sets, tz)
+    pos_encoded_train = encode_pos("train", data_sets, tz)
 
-    print(all_encodings_validation[0])
-    print(pos_encoded_validation[0])
+    print(all_encodings_train[0])
+    print(pos_encoded_train[0])
 
 if __name__ == "__main__":
     main()
