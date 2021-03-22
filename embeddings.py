@@ -1,11 +1,14 @@
-from tokenizer import tokenize_and_encode
+from tokenizer import tokenize_and_encode, initialize_tokenizer
 from transformers import BertTokenizer, BertModel
 from datasets import load_dataset
 import sys
 import torch
 
-def embedding_model(encodings):
+def initialize_model():
     model = BertModel.from_pretrained("bert-base-cased")
+    return model
+
+def embedding_model(model, encodings):
     with torch.no_grad():
         last_hidden_states = model(encodings)
     return last_hidden_states
@@ -22,17 +25,12 @@ def main():
             }
 
     data_sets = load_dataset("data_loading.py", data_files=data_files)
+    tokenizer = initialize_tokenizer()
+    all_encodings_train = tokenize_and_encode("train", data_sets, tokenizer)
 
-    all_encodings_train = tokenize_and_encode("train", data_sets)
-    all_encodings_test = tokenize_and_encode("test", data_sets)
-    all_encodings_validation = tokenize_and_encode("validation", data_sets)
-
-    pos_encoded_train = encode_pos("train", data_sets)
-    pos_encoded_test = encode_pos("test", data_sets)
-    pos_encoded_validation = encode_pos("validation", data_sets)
-
+    model = initialize_model()
     for sentence in all_encodings_train:
-        print(embedding_model(sentence["input_ids"]))
+        print(embedding_model(model, sentence["input_ids"]))
 
 if __name__ == "__main__":
     main()
