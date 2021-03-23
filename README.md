@@ -56,10 +56,10 @@ Use it like this:
 $ python get_information.py small.tsv small.info
 ```
 NOTE: In our project we performed all the following steps with these dataset sizes:
+* tiny: 1 000 lines
 * small: 10 000 lines
 * medium: 100 000 lines
-* big: 1 000 000 lines
-* original size: 2 000 000 lines
+* (big: 1 000 000 lines)
 
 ## Creating Splits
 * *splitting_data.py:* This script will split our dataset into three splits. It uses an input file (small.tsv) to produce three output files (small_train.tsv, small_test.tsv, small_val.tsv).
